@@ -25,7 +25,7 @@
         echo "Linha após a funcao (Nao vai rodar se der throw)<br>";
         
     } catch (Exception $e){
-        echo "Catch pegou" . $e->getMessage . "<br>";
+        echo "Catch pegou" . $e->getMessage() . "<br>";
     }
 
     
@@ -35,5 +35,5 @@
         echo "Linha após a funcao (Nao vai rodar se der throw)<br>";
         
     } catch (Exception $e){
-        echo "Catch pegou" . $e->getMessage . "<br>";
+        echo "Catch pegou" . $e->getMessage() . "<br>";
     }
